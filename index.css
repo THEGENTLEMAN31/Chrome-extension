@@ -1,0 +1,25 @@
+body
+{
+    
+    max-height: max-content;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button
+{
+    text-align: center;
+    color:White;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+
+    
+}
+
+input
+{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
