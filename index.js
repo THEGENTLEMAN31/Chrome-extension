@@ -1,4 +1,4 @@
-let myLeads= ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+let myLeads= []
 const inputBtn =document.getElementById("input-btn")
 const inputEl=document.getElementById("input-el")
 const ulEl =document.getElementById("ul-el")
@@ -9,6 +9,7 @@ inputBtn.addEventListener("click", function()
 {
     myLeads.push(inputEl.value)
     render()
+    inputEl.value =""
      
 })
 
