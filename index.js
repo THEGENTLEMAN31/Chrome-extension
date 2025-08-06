@@ -20,7 +20,7 @@ function render()
        // listItems += "<li><a target='_blank' href='" + myLeads[i]+ "'>" + myLeads[i] + "</a></li>"
        listItems += `
        <li>
-            <a target='_blank' href='${myLeads[i]}'>"
+            <a target='_blank' href='${myLeads[i]}'>
              ${myLeads[i]}
              </a>
        </li>`
