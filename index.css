@@ -1,9 +1,9 @@
  body
 {
-    
-    
+
     font-size:large;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 button
 {
@@ -11,10 +11,18 @@ button
     color:White;
     background-color: green;
     padding: 10px 20px;
-    border: none  ;
-    min-width: 400px;
+    border: 1px solid green ; ;
+    
     margin-top:2px ;
+    font-weight: bold;
  
+    
+}
+#delete-btn 
+{
+    background-color: white;
+    border-color: green;
+    color : green ; 
     
 }
 
@@ -24,6 +32,7 @@ input
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
+    margin-bottom: 4px;
     
 }
 li
